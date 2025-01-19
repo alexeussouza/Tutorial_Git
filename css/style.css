@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: beige;
+}
+
+.container div{
+    width: 150px;
+    height: 25px;
+    color: rgb(65, 10, 153);
+    background-color: tomato;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.container_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 300px;
+    min-height: 50px;
+    border: 1px solid black;
+}
+
+.container_img > div{
+    width: 100px;
+    height: 50px;
+
+
+
+}
